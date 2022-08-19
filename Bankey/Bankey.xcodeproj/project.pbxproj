@@ -58,9 +58,9 @@
 		DE02CAF928ACB3DB003A4D29 /* Bankey */ = {
 			isa = PBXGroup;
 			children = (
+				DE02CB0F28ACB714003A4D29 /* Login */,
 				DE02CB1228AF1C06003A4D29 /* Onboarding */,
 				DE02CB0E28ACB6D0003A4D29 /* Files */,
-				DE02CB0F28ACB714003A4D29 /* Login */,
 				DE02CAFA28ACB3DB003A4D29 /* AppDelegate.swift */,
 			);
 			path = Bankey;
