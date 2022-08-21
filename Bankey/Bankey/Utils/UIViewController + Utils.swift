@@ -9,14 +9,14 @@ import Foundation
 import UIKit
 
 extension UIViewController {
+    
     func setStatusBar() {
-        func setStatusBar() {
-            let navBarAppearance = UINavigationBarAppearance()
-            navBarAppearance.configureWithTransparentBackground() // to hide Navigation Bar Line also
-            navBarAppearance.backgroundColor = appColor
-            UINavigationBar.appearance().standardAppearance = navBarAppearance
-            UINavigationBar.appearance().scrollEdgeAppearance = navBarAppearance
-    }
+        let navBarAppearance = UINavigationBarAppearance()
+        navBarAppearance.configureWithTransparentBackground() // to hide Navigation Bar Line also
+        navBarAppearance.backgroundColor = appColor
+        UINavigationBar.appearance().standardAppearance = navBarAppearance
+        UINavigationBar.appearance().scrollEdgeAppearance = navBarAppearance
+    
 }
     
     func setTabBarImage(imageName: String, title: String) {
