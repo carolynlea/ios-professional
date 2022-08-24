@@ -79,7 +79,6 @@ extension AccountSummaryCell {
         
         balanceAmountLabel.translatesAutoresizingMaskIntoConstraints = false
         balanceAmountLabel.textAlignment = .right
-        //balanceAmountLabel.adjustsFontSizeToFitWidth = true
         balanceAmountLabel.attributedText = makeFormattedBalance(dollars: "929,466", cents: "23")
         
         cheveronImageView.translatesAutoresizingMaskIntoConstraints = false
